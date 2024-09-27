@@ -98,6 +98,7 @@ Este enfoque permitirá identificar un modelo más preciso para la predicción d
 ``` 
 .
 ├── README.md
+├── Requirements.txt
 ├── conf
 │   └── todo.txt
 ├── dashboard
@@ -106,23 +107,43 @@ Este enfoque permitirá identificar un modelo más preciso para la predicción d
 │   ├── analytics
 │   │   └── todo.txt
 │   ├── raw
+│   │   ├── IPC_Indices.xlsx
+│   │   ├── IPP_Indices.xlsx
+│   │   ├── TRM.xlsx
+│   │   ├── aportes_hidricos.csv
+│   │   ├── capacidad.csv
+│   │   ├── componentes_tarifas_energia.csv
 │   │   ├── data.txt
-│   │   └── data_ignorar.txt
+│   │   ├── data_ignorar.txt
+│   │   └── precio_de_bolsa.csv
 │   └── stage
+│       ├── AS03CU03AA-DatosIntegradosComponentesCU.csv
 │       └── todo.txt
 ├── datalab
+│   ├── Modelo_Prueba.ipynb
+│   ├── Modelo_TCN.ipynb
+│   ├── Modelo_XGBoost.ipynb
+│   ├── PRUEBA_1.ipynb
+│   ├── predicciones_vs_valores_reales.png
 │   └── todo.txt
 ├── deploy
 │   └── todo.txt
 ├── docs
 │   ├── Comunicaciones Caoba.docx
 │   ├── Informe Proyecto
-│   │   └── Entrega 1
-│   │       ├── Presentación primera entrega trabajo de grado.pptx
-│   │       └── Proyecto analítico de predicción de costo unitario de energía en Colombia en el sector residencial.docx
+│   │   ├── Entrega 1
+│   │   │   ├── Presentación primera entrega trabajo de grado.pptx
+│   │   │   └── Proyecto de predicción de costo unitario de energía.docx
+│   │   └── Entrega 2
+│   │       └── Proyecto de predicción de costo unitario de energía.docx
+│   ├── archivos soporte
+│   │   ├── Diagrama Gantt Proyecto.xlsx
+│   │   ├── Seguimiento XGB.xlsx
+│   │   └── XGBoost vs VEC(2).pptx
 │   ├── manual usuario
 │   │   └── todo.txt
 │   ├── readme
+│   │   ├── Integrame_Dashboard_actual.png
 │   │   ├── docs_Arquitectura.png
 │   │   ├── docs_modeloDatosPowerBI.png
 │   │   ├── ejemplo_descripcion_proyecto.png
@@ -137,7 +158,6 @@ Este enfoque permitirá identificar un modelo más preciso para la predicción d
     ├── 00Standard_Ref_to_make_Experiments.ipynb
     ├── README.md
     └── root.py
-
 ``` 
 
 ## Proceso de ejecucion y despliegue 
